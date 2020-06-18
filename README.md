@@ -31,5 +31,6 @@ My Aim is to learn to write research code and easily reproduce it from papers.
 
 ## Can I use Fastai, or Keras to contribute?
 - No, please do not for this repo is not for such frameworks that have too much built in power.
+- But yes please use tensorflow v2 or Pytorch or Pytorch-lightning.
 
 
