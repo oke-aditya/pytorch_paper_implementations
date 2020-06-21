@@ -24,6 +24,11 @@ My aim here is to learn, reproduce work and understand nuances.
 - Not a repo to showcase how papers keep battling for SOTA. I want to reimplement stuff not create a benchmarking repo.
 
 # FAQs
+## So most code here is reimplemenatation nothing new ?
+- Yes as of now. I'm not a great DL researcher / scientist; just a student.
+- I would suggest use https://github.com/rwightman/pytorch-image-models this repo for models.
+- I have tried to learn from its implmenatations as well.
+
 ## Can I copy paste some of your code from here ?
 - Yes you can. It is just reimplementation. But I do not guarentee if that will help you to get SOTA.
 
@@ -36,5 +41,6 @@ My aim here is to learn, reproduce work and understand nuances.
 ## Can I use Fastai, or Keras to contribute?
 - No, please do not for this repo is not for such frameworks that have too much built in power.
 - But yes please use tensorflow v2 or Pytorch or Pytorch-lightning.
+
 
 
