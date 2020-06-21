@@ -2,9 +2,13 @@
 
 Implements deep learning papers. It contains basic papers such as activations, CNNs to advanced papers such as encoder-decoder etc.
 
-It also contains the paper from which I learnt. Also a short summary of how this paper was important and contributed towards DL.
+It also contains links to paper from which it is taken.
 
 My Aim is to learn to write research code and easily reproduce it from papers.
+
+Some implementations are mine, most will be taken from various GitHub repos.
+
+My aim here is to learn, reproduce work and understand nuances.
 
 # Why this Repo ?
 - It presents easily reusable code for Deep Learning Papers.
