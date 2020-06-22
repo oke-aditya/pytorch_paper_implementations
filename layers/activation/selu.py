@@ -7,6 +7,8 @@ import torch
 from torch.nn import functional as F
 import torch.nn as nn
 
+__all__ = ["selu", "Selu"]
+
 
 def selu(x, inplace: bool = False):
     """ Selu as described in the paper Self-Normalizing Neural Networks https://arxiv.org/pdf/1706.02515.pdf """
