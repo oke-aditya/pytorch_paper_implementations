@@ -12,7 +12,6 @@ def swish(x, inplace: bool = False):
     else:
         return x.mul(x.sigmoid())
 
-
 class Swish(nn.Module):
     def __init__(self, inplace: bool = False):
         super().__init__()
@@ -20,7 +19,6 @@ class Swish(nn.Module):
 
     def forward(self, x):
         return swish(x, inplace=self.inplace)
-
 
 # if __name__ == "__main__":
 #     x = torch.tensor(3, dtype=torch.float)
