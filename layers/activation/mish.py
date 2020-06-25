@@ -6,6 +6,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+__all__ = ["mish", "Mish"]
+
 
 def mish(x, inplace: bool = False):
     """

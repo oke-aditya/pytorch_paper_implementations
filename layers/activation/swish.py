@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+__all__ = ["swish", "Swish"]
+
 
 def swish(x, inplace: bool = False):
     """ Swish activation function as described in https://arxiv.org/pdf/1710.05941.pdf
