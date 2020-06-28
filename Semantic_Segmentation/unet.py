@@ -1,6 +1,12 @@
 import torch
 import torch.nn as nn
 
+# This is implementation of orignal U-Net paper
+# https://arxiv.org/pdf/1505.04597.pdf
+# Thanks to Abhishek Thakur for his video and implementation.
+# https://www.youtube.com/watch?v=u1loyDCoGbE
+# This is just a re-implementation of his work.
+
 
 def double_conv_block(in_channels, out_channels):
     conv = nn.Sequential(
