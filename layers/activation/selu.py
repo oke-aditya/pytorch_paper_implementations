@@ -1,7 +1,11 @@
-# This is a raw selu implementation.
-# You can use torch.nn.SeLU simply in your code.
-# This is plain simple implementation made by me.
-# Learn more from here https://towardsdatascience.com/gentle-introduction-to-selus-b19943068cd9
+"""
+This is a raw selu implementation.
+You can use torch.nn.SeLU simply in your code.
+This is plain simple implementation made by me.
+Learn more from here https://towardsdatascience.com/gentle-introduction-to-selus-b19943068cd9
+
+Author: Aditya Oke
+"""
 
 import torch
 from torch.nn import functional as F
