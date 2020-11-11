@@ -15,7 +15,10 @@ def mish(x, inplace: bool = False):
     Mish: A Self Regularized Non-Monotonic Neural Activation Function - https://arxiv.org/abs/1908.08681
     mish(x) = x * tanh(softplus(x)) = x * tanh(ln(1 + exp(x)))
     """
-    return x.mul(F.tanh(F.softplus(x)))
+    if inplace:
+        return x.mul_(F.tanh(F.softplus(x)))
+    else:
+        return x.mul(F.tanh(F.softplus(x)))
 
 
 class Mish(nn.Module):
@@ -34,6 +37,7 @@ class Mish(nn.Module):
 
     def __init__(self, inplace: bool = False):
         super().__init__()
+        self.inplace = inplace
 
     def forward(self, x):
-        return mish(x)
+        return mish(x, inplace=self.inplace)
